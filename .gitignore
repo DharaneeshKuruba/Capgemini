@@ -1,16 +1,41 @@
-# Python cache files
+# Python
 __pycache__/
 *.py[cod]
-*.pyo
-
-# Virtual environments
+*$py.class
+*.so
+.Python
+env/
 .venv/
 venv/
 ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Flask
+instance/
+.webassets-cache
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Environment variables
 .env
+.env.local
 
-# OS metadata
-.DS_Store
-Thumbs.db
+# Logs
+*.log
